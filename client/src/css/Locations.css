@@ -57,3 +57,33 @@ svg polygon:hover {
     text-transform: uppercase;
     font-weight: 700;
 }
+
+.venues-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.venue-card {
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    background-color: #fff;
+}
+
+.venue-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.venue-name {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333;
+}
